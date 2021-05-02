@@ -62,16 +62,17 @@ def paragraph_list(sentences, sentence_limit=6, type="book"):
     return sentence_batch_lst
 
 
+
 def summary_output():
     summary_result = []
+    summarizer = pipeline("summarization")
 
     for paragraph in paragraphs:
         body = paragraph
-
         # use bart in pytorch
-        summarizer = pipeline("summarization")
         summary = summarizer(body, min_length=5)
         summary_result.append(summary[0]['summary_text'])
+        print(' '.join(summary_result))
 
     summary_result = ' '.join(summary_result)
     return summary_result
@@ -79,7 +80,7 @@ def summary_output():
 # url_link = input("Link: ")
 url_link = "https://www.gutenberg.org/cache/epub/103/pg103.txt"
 
-text = url(url_link)
+text = url_text(url_link)
 text = clean_text(text)
 sentences = nltk.sent_tokenize(text)
 paragraphs = paragraph_list(sentences)

@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\sijal\\anaconda3\\envs\\NLP\\python.exe"
+    "python.pythonPath": "C:\\Users\\sijal\\anaconda3\\envs\\NLP\\python.exe",
+    "jupyter.jupyterServerType": "local"
 }
