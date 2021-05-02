@@ -2,7 +2,7 @@
 
 ![Project Image](https://image.freepik.com/free-photo/black-male-student-underlining-important-information-textbook-using-pencil-while-making-history-research-university-canteen-during-lunch-phone-coffee-food-resting-table_273609-7535.jpg)
 
-> ## The digital era also means that customers want to get answers not from one book but from thousands immediately.
+> ### The digital era also means that customers want to get answers not from one book but from thousands immediately.
 
 ---
 
@@ -51,25 +51,12 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 ---
 
 ## **How To Use**
-<br/>
 
 ### **Installation**
 
 **Note:** Just use command below to install the required libary with correct version to run the program smoothly.
 
 `pip install -r requiement.txt`
-
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
-
----
-
-## References
-[Back To The Top](#read-me-template)
 
 ---
 
