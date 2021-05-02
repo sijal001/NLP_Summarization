@@ -25,15 +25,14 @@ def main():
 
 if __name__=='__main__':
     main()"""
-    
-
-'''from tensorflow.python.client import device_lib
-def get_available_devices():
-    local_device_protos = device_lib.list_local_devices()
-    return [x.name for x in local_device_protos]
-print(get_available_devices())'''
 
 import tensorflow as tf
 
 print(tf.test.is_gpu_available())
 print(tf.test.is_built_with_cuda())
+
+from tensorflow.python.client import device_lib
+def get_available_devices():
+    local_device_protos = device_lib.list_local_devices()
+    return [x.name for x in local_device_protos]
+print(get_available_devices())
