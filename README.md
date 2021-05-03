@@ -7,7 +7,7 @@
 
 ---
 
-<h2> <strong>Table of Contents</strong> </h2>
+## **Table of Contents**
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
@@ -18,7 +18,7 @@ You're sections headers will be used to reference location of destination.
 
 ---
 
-<h2> <strong>Description</strong> </h2>
+## **Description**
 
 <p align="justify">
 An online dashboard where the user can select or upload an e-book and the summary is automatically generated. The contents are summarizing by paragraph. The users can also enter paragraphs of information to be summarized. The users can query questions to be answered according to the content of the book. The queries are answered according to the content of multiple books on the same or similar topics.  
@@ -26,13 +26,11 @@ An online dashboard where the user can select or upload an e-book and the summar
 <p align="justify">
 Ttokenization, stemming and lemmatization are used for exploration of text-based datasets. As for text ummarization Explore state-of-the-art algorithms has been used.
 Transformer model has been used and pre-trained model perfomance has been evaluated. Development and deployment of the dashboard are done in Heroku.
-
 </p>
 
 <br/>
-<br/>
 
-<h2> <strong>Technologies</strong> </h2>
+## **Technologies**
 <br/>
 
 | Library       | Used to                                        |
@@ -53,13 +51,13 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 | transformers  | to perform multiple tasks on texts             |
 | beautifulsoup4| to scrape information from web pages.          |
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#NLP_Summarization)
 
 ---
 
-<h2> <strong>How To Use</strong> </h2>
+## **How To Use**
 
-<h3> <strong> Installation </strong> </h3>
+### **Installation </strong> </h3>
 
 **Note:** Just use command below to install the required libary with correct version to run the program smoothly.
 
@@ -67,13 +65,13 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 
 ---
 
-<h2> <strong>Repo Artitecture</strong> </h2>
+## **Repo Artitecture**
 
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#NLP_Summarization)
 
 ---
-<h2> <strong>License</strong> </h2>
+## **License**
 
 Copyright (c) [2021] [Sijal Kumar Joshi]
 
@@ -99,13 +97,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </p>
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#NLP_Summarization)
 
 ---
 
-<h2> <strong>Author Info</strong> </h2>
+## **Author Info**
 
 - Linkedin - [Sijal Kumar Joshi](https://twitter.com/jamesqquick)
 - Github   - [sijal001](https://github.com/sijal001)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#NLP_Summarization)
