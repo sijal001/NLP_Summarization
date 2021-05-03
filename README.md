@@ -3,11 +3,11 @@
 
 ![Project Image](https://image.freepik.com/free-photo/black-male-student-underlining-important-information-textbook-using-pencil-while-making-history-research-university-canteen-during-lunch-phone-coffee-food-resting-table_273609-7535.jpg)
 
-> #### The digital era also means that customers want to get answers not from one book but from thousands immediately.
+> <p> <strong> The digital era also means that customers want to get answers not from one book but from thousands immediately. </strong> </p>
 
 ---
 
-## **Table of Contents**
+<h2> <strong>Table of Contents</strong> </h2>
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
@@ -18,15 +18,21 @@ You're sections headers will be used to reference location of destination.
 
 ---
 
-## **Description**
+<h2> <strong>Description</strong> </h2>
 
+<p align="justify">
 An online dashboard where the user can select or upload an e-book and the summary is automatically generated. The contents are summarizing by paragraph. The users can also enter paragraphs of information to be summarized. The users can query questions to be answered according to the content of the book. The queries are answered according to the content of multiple books on the same or similar topics.  
-
+</p>
+<p align="justify">
 Ttokenization, stemming and lemmatization are used for exploration of text-based datasets. As for text ummarization Explore state-of-the-art algorithms has been used.
 Transformer model has been used and pre-trained model perfomance has been evaluated. Development and deployment of the dashboard are done in Heroku.
+
+</p>
+
 <br/>
 <br/>
-### **Technologies**
+
+<h2> <strong>Technologies</strong> </h2>
 <br/>
 
 | Library       | Used to                                        |
@@ -51,9 +57,9 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 
 ---
 
-## **How To Use**
+<h2> <strong>How To Use</strong> </h2>
 
-### **Installation**
+<h3> <strong> Installation </strong> </h3>
 
 **Note:** Just use command below to install the required libary with correct version to run the program smoothly.
 
@@ -61,26 +67,29 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 
 ---
 
-## **Repo Artitecture**
+<h2> <strong>Repo Artitecture</strong> </h2>
 
 
 [Back To The Top](#read-me-template)
 
 ---
-## **License**
+<h2> <strong>License</strong> </h2>
 
 Copyright (c) [2021] [Sijal Kumar Joshi]
 
+<p align="justify">
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
+</p>
+<p align="justify">
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
+</p>
+<p align="justify">
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -88,12 +97,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+</p>
 
 [Back To The Top](#read-me-template)
 
 ---
 
-## **Author Info**
+<h2> <strong>Author Info</strong> </h2>
 
 - Linkedin - [Sijal Kumar Joshi](https://twitter.com/jamesqquick)
 - Github   - [sijal001](https://github.com/sijal001)
