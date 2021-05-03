@@ -1,8 +1,9 @@
-# **Text Summarization**
+<h1 align="center"> <strong>Text Summarization</strong> </h1>
+
 
 ![Project Image](https://image.freepik.com/free-photo/black-male-student-underlining-important-information-textbook-using-pencil-while-making-history-research-university-canteen-during-lunch-phone-coffee-food-resting-table_273609-7535.jpg)
 
-> ### The digital era also means that customers want to get answers not from one book but from thousands immediately.
+> #### The digital era also means that customers want to get answers not from one book but from thousands immediately.
 
 ---
 
@@ -11,7 +12,7 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [References](#references)
+- [Repo Artitecture](#references)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -60,7 +61,13 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 
 ---
 
-## License
+## **Repo Artitecture**
+
+
+[Back To The Top](#read-me-template)
+
+---
+## **License**
 
 Copyright (c) [2021] [Sijal Kumar Joshi]
 
@@ -86,7 +93,7 @@ SOFTWARE.
 
 ---
 
-## Author Info
+## **Author Info**
 
 - Linkedin - [Sijal Kumar Joshi](https://twitter.com/jamesqquick)
 - Github   - [sijal001](https://github.com/sijal001)
