@@ -7,7 +7,7 @@
 
 ---
 
-## **Table of Contents**
+## **Table_of_Contents**
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
@@ -51,7 +51,7 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 | transformers  | to perform multiple tasks on texts             |
 | beautifulsoup4| to scrape information from web pages.          |
 
-[Back To The Top](#NLP_Summarization)
+[**↥ Back To The Top**](#Table_of_Contents)
 
 ---
 
@@ -68,7 +68,7 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 ## **Repo Artitecture**
 
 
-[Back To The Top](#NLP_Summarization)
+[**↥ Back To The Top**](#Table_of_Contents)
 
 ---
 ## **License**
@@ -97,7 +97,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </p>
 
-[Back To The Top](#NLP_Summarization)
+[**↥ Back To The Top**](#Table_of_Contents)
 
 ---
 
@@ -106,4 +106,4 @@ SOFTWARE.
 - Linkedin - [Sijal Kumar Joshi](https://twitter.com/jamesqquick)
 - Github   - [sijal001](https://github.com/sijal001)
 
-[Back To The Top](#NLP_Summarization)
+[**↥ Back To The Top**](#Table_of_Contents)
