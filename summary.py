@@ -50,7 +50,6 @@ def clean_text(text):
 
 # make the paragraph of tall the sentences 
 def paragraph_list(sentences, sentence_limit=6, word_limit=1000):
-
     sentence_batch_lst = []
     sentence_batch = []
 
@@ -88,21 +87,23 @@ def summary_output(paragraphs):
 
     # join the list of every summary and provide one full summary
     summary_result = ' '.join(summary_result)
+    
     return summary_result
-
 
 # function to provide the result 
 def summary_result(text):
     text = clean_text(text)
     sentences = nltk.sent_tokenize(text)
     paragraphs = paragraph_list(sentences)
+    
     return summary_output(paragraphs)
 
 
-url_link = "https://www.gutenberg.org/cache/epub/103/pg103.txt"
-url_link = "https://www.nytimes.com/2021/05/01/us/susan-wright-sixth-district-texas.html"
+# testing Script
+book_link = "https://www.gutenberg.org/cache/epub/103/pg103.txt"
+artical_link = "https://www.nytimes.com/2021/05/01/us/susan-wright-sixth-district-texas.html"
 
-text = url_text(url_link)
+text = url_text(artical_link)
 
 summary = summary_result(text)
 
