@@ -26,7 +26,7 @@ import os
 
 # ********** Phase 2: Data Preprocessing  **********
 
-with open('./data/squad/train_meta_data') as json_file: 
+with open('./Bert_QA/data/squad/train_meta_data') as json_file: 
     input_meta_data = json.load(json_file)
 
 BATCH_SIZE = 4

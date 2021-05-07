@@ -99,7 +99,7 @@ NLP_Summarization
 │   │ upload.html           :page for user to upload their files and get their summarzation.
 │   │ url.html              :page for user to paste their url and get their summarzation.
 │__   
-│   Bert_QA		   	        :directory contain all the main .py files related to Question answeing model.
+│   Bert_QA                 :directory contain all the main .py files related to Question answeing model.
 │   │
 │   │ BERT_QA_Single_prediction.py   :python script used for predicting the answer from the paragraph.
 │   │ BERT_QA_evaluation.py :python script used for evaluating the models predition results.
