@@ -1,0 +1,345 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+.design_cp {
+  align-items: center;
+  background: linear-gradient(-45deg, #210242, #9198e5);
+  display: flex;
+  font-family: 'Inter UI', sans-serif;
+
+  justify-content: center;
+  height: 100vh;
+
+}
+body{
+  position: relative;
+}
+.design_link {
+    align-items: center;
+    background: linear-gradient(-45deg, #024207, #9198e5);
+    display: flex;
+    font-family: 'Inter UI', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+  
+   
+  }
+
+p{margin-top: 110px;
+font-weight: bold;
+width: 500px;
+
+}
+
+  .design_qa{
+ 
+    background: linear-gradient(-45deg, #024207, #9198e5);
+    display: flex;
+    font-family: 'Inter UI', sans-serif;
+ 
+    margin: 0;
+    height: 130vh;
+    background-attachment:scroll;
+  }
+
+  .design_file {
+    align-items: center;
+    background: linear-gradient(-150deg, #f0ebeb, #000000);
+    display: flex;
+    font-family: 'Inter UI', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+  }
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  height: 200px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 300px;
+}
+.title {
+  font-size: 1.5em;
+  height: 29px;
+  margin-bottom: 0;
+}
+.text {
+  color: #667;
+  font-size: 1em;
+  height: 38px;
+  margin: 5px 0 0;
+}
+.line {
+  left: 0;
+  position: absolute;
+  width: 340px;
+}
+input[type="file"]{
+  margin-bottom: 150px;
+
+}
+.line path {
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+  stroke-dasharray: 300 1903;
+}
+.card.saving .line path {
+  stroke-dashoffset: -472;
+  stroke-dasharray: 153 1903;
+  transition: stroke-dasharray 500ms, stroke-dashoffset 500ms;
+}
+.card.done .line path {
+  stroke-dashoffset: -762;
+  stroke-dasharray: 1095 1903;
+  transition: stroke-dasharray 1500ms, stroke-dashoffset 1500ms;
+}
+.line2 {
+  height: 52px;
+  left: 150px;
+  opacity: 0;
+  position: absolute;
+  stroke-dasharray: 6 48;
+  stroke-dashoffset: -42;
+  top: 158px;
+  transform-origin: 50%;
+  width: 50px;
+}
+.card.saving .line2 {
+  animation: 4s 500ms Rotate forwards;
+}
+.card.done .line2 {
+  animation: 500ms ScaleDown forwards;
+}
+.form {
+  transform-origin: 0 50%;
+  transition: transform 500ms, opacity 500ms;
+}
+.card.saving .form {
+  transform: translateY(-16px) scale(.8);
+}
+.card.done .form {
+  transform: translateY(-16px) scale(.8);
+  opacity: 0;
+}
+.input {
+  background: transparent;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  height: 40px;
+  margin-top: 20px;
+  outline: none !important;
+  position: relative;
+  width: 300px;
+}
+
+
+
+ .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . . . . ."
+    ". links links . rechts rechts ."
+    ". links links . rechts rechts ."
+    ". . . . . . ."
+    ". . homebutton homebutton homebutton . ."
+    ". footer footer footer footer footer .";
+}
+.links { grid-area: links; }
+.rechts { grid-area: rechts; }
+.homebutton { grid-area: homebutton; }
+.footer { 
+  grid-area: footer;
+  margin-top: 100px;
+  text-align: center;
+} 
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . . . . ."
+    ". . left . right . ."
+    ". . left . right . ."
+    ". . . . . . ."
+    ". . . bot . . ."
+    ". . . footer_ . . .";
+}
+.left { grid-area: left; }
+.right { grid-area: right; }
+.bot { grid-area: bot;
+  }
+.footer_ { grid-area: footer_; }
+
+
+.button {
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: #16a085;
+  border: none;
+  color: #fff;
+  margin-left: 160px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #193047;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #1abc9c;
+  color: #000;
+}
+
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+a {
+  
+  text-decoration: none; /* no underline */
+}
+
+#wrap
+{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+#lightings
+{
+  bottom: -60px;
+  position: absolute;
+  width: 100%;
+}
+
+section
+{
+  /*border-radius*/
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+
+}
+
+
+.nav {
+
+  position:   absolute;
+  top:        190px;
+  left:       200px;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  transition: 0.5s;
+  border-radius: 50px;
+  overflow: hidden;
+ 
+}
+
+.menu {
+ 
+  margin: 0;
+  padding: 0;
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.nav input:checked ~ .menu {
+  width: 120px;
+
+}
+
+.menu li {
+  list-style: none;
+  margin: 0 20px;
+  width: 80 px
+}
+  
+
+.menu li a {
+  text-decoration: none;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.menu li a:hover {
+  color: #161919;
+}
+
+.nav input {
+  width: 40px;
+
+  cursor: pointer;
+  opacity: 0;
+}
+
+
+textarea {
+
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.nav span {
+  position: absolute;
+  left: 30px;
+  width: 30px;
+  height: 4px;
+  border-radius: 50px;
+  background-color: #666;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.nav input:checked ~ span {
+  background-color: #f974a1;
+}
+
+.nav span:nth-child(2) {
+  transform: translateY(-8px);
+}
+
+.nav input:checked ~ span:nth-child(2) {
+  transform: translateY(0) rotate(-45deg);
+}
+.nav span:nth-child(3) {
+  transform: translateY(8px);
+}
+
+.nav input:checked ~ span:nth-child(3) {
+  transform: translateY(0) rotate(45deg);
+}
+
+
+
+

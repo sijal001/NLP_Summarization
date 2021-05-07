@@ -13,18 +13,24 @@ import bs4 as bs
 import nltk
 nltk.download('punkt')
 import urllib.request
-from transformers import pipeline, AutoModelForTokenClassification, AutoTokenizer
+from transformers import AutoModelForTokenClassification, AutoTokenizer
+
+'''
+from transformers import pipeline
+summarizer = pipeline('summarization')
+'''
 
 # grab paragraph from the link
 def url_text(url_link):
     source = urllib.request.urlopen(url_link)
     soup = bs.BeautifulSoup(source, 'lxml')
     text = ""
-
+    print("Collecting Paragraph.")
     # get the whole paragraph of the website and make it as a string
     for paragraph in soup.find_all('p'):
         text += paragraph.text
 
+    print("Paragraph collected.")
     return text
 
 # read file and return text files
@@ -74,9 +80,9 @@ def paragraph_list(sentences, sentence_limit=6, word_limit=1000):
     return sentence_batch_lst
 
 # create the summay of the content given
-def summary_output(paragraphs):
+def summary_output(paragraphs, summarizer):
     summary_result = []
-    summarizer = pipeline("summarization")
+    
 
     # content contains multiple paragraph so summarize every contain, make its list 
     for paragraph in paragraphs:
@@ -91,20 +97,21 @@ def summary_output(paragraphs):
     return summary_result
 
 # function to provide the result 
-def summary_result(text):
+def summary_result(text, summarizer):
     text = clean_text(text)
     sentences = nltk.sent_tokenize(text)
     paragraphs = paragraph_list(sentences)
     
-    return summary_output(paragraphs)
+    return summary_output(paragraphs, summarizer)
 
-
+"""
 # testing Script
 book_link = "https://www.gutenberg.org/cache/epub/103/pg103.txt"
 artical_link = "https://www.nytimes.com/2021/05/01/us/susan-wright-sixth-district-texas.html"
 
 text = url_text(artical_link)
 
-summary = summary_result(text)
+summary = summary_result(text, summarizer)
 
 print(summary)   
+"""
