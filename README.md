@@ -99,20 +99,17 @@ NLP_Summarization
 │   │ upload.html           :page for user to upload their files and get their summarzation.
 │   │ url.html              :page for user to paste their url and get their summarzation.
 │__   
-│  main		    	    :directory contain all the main .ipynb that create the machine model that train test and creates a pickel files.
+│   Bert_QA		   	        :directory contain all the main .py files related to Question answeing model.
 │   │
-│   │ Pump_ML_model.ipynb   :notebook that contain trainning, pickel creatin script and abnormal sound clusting for machine pump.
-│   │ Slider_ML_model.ipynb :notebook that contain trainning, pickel creatin script and abnormal sound clusting for machine slider.
-│   │ Fan_ML_model.ipynb    :notebook that contain trainning, pickel creatin script and abnormal sound clusting for machine fan.
-│   │ Valve_ML_model.ipynb  :notebook that contain trainning, pickel creatin script and abnormal sound clusting for machine valve.
-│   │ predict.py	    :end user script file, script to how user upload data and decide what model to use.
+│   │ BERT_QA_Single_prediction.py   :python script used for predicting the answer from the paragraph.
+│   │ BERT_QA_evaluation.py :python script used for evaluating the models predition results.
+│   │ BERT_QA_model.py      :python script used for create and saving the train model.
+│   │ __init__.py           :python script used for initial file whole importing to other directory
+│   │ evaluate-v1.1.py	    :python script used for evaluating the models predition results.
 │   │
-│   │ saved_model      	    :directory contains all saved pickel files of the machine learning model.
-│   │ dataset		    ::directory contains all .pynb file that does the preprocessing and fearure extration .
-│     │__
-│	 processed_data     :directory contains the .csv files that contains the main machine features and information.
-│	 preprocessing.py   :python script file to preprocess ad grab the features
-│	 get_data.py        :python script file that read and manage all sound files
+│	 summary.py             :python script file that summarize from context, url link or files.
+│	 app.py                 :python script file to deploy model and html files for web application.
+│	 Procfile               :files used for deployment.
 ```
 
 [**↥ Back To The Top**](#Table_of_Contents)

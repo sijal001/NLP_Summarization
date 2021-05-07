@@ -1,5 +1,6 @@
 .vs/
 .vscode/
+__pycache__/
 .ipynb_checkpoints/
 BERT_Fine_Tuning/
 Bert_QA/*/
