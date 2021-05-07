@@ -63,10 +63,57 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 
 `pip install -r requiement.txt`
 
+1. Inside Bert_QA directory create 2 new drictory and name `ckpt_bert_squad` and `data`.
+2. Download import file and move it to data directory.
+    * [training set](https://drive.google.com/file/d/1zwSjQX2gNb2EYldVoR5sCibnSDz9DQtH/view?usp=sharing)
+    * [dev set](https://drive.google.com/file/d/1YjCrVa3906b4KCWTQu3KySY7gE1CPqpC/view?usp=sharing)
+    * [vocab.txt](https://drive.google.com/file/d/1kp8ApuoHSjROy0Rca0BNQ6YrnbpRtYCk/view?usp=sharing)
+    * [evaluation script](https://drive.google.com/file/d/1DKhqdc8tdMnZ4EzLtW2zuG0Pf6z6H3vF/view?usp=sharing )
+
+3. Inside Bert_QA directory run `BERT_QA_model.py` script file inside dir. (This generate traing file)
+3. Run the app.py file to host the application locally.
+
+
+[**↥ Back To The Top**](#Table_of_Contents)
+
 ---
 
 ## **Repo Artitecture**
-
+```
+NLP_Summarization
+│
+│   README.md               :explains the project
+│   requirements.txt        :packages to install to run the program
+│   .gitignore              :specifies which files to ignore when pushing to the repository
+│__   
+│   static                  :directory contain all the main css file to style html.
+│   │
+│   │ css.css               :css file to style home page
+│   │ style.css             :seconday css file for other page (optional)
+│__   
+│   templates               :directory contain all the main html that work as a dashboard.
+│   │
+│   │ Qa.html               :page for question answering service
+│   │ context.html          :page for user to paste their context and get their summarzation.
+│   │ index.html            :home page for website.
+│   │ upload.html           :page for user to upload their files and get their summarzation.
+│   │ url.html              :page for user to paste their url and get their summarzation.
+│__   
+│  main		    	    :directory contain all the main .ipynb that create the machine model that train test and creates a pickel files.
+│   │
+│   │ Pump_ML_model.ipynb   :notebook that contain trainning, pickel creatin script and abnormal sound clusting for machine pump.
+│   │ Slider_ML_model.ipynb :notebook that contain trainning, pickel creatin script and abnormal sound clusting for machine slider.
+│   │ Fan_ML_model.ipynb    :notebook that contain trainning, pickel creatin script and abnormal sound clusting for machine fan.
+│   │ Valve_ML_model.ipynb  :notebook that contain trainning, pickel creatin script and abnormal sound clusting for machine valve.
+│   │ predict.py	    :end user script file, script to how user upload data and decide what model to use.
+│   │
+│   │ saved_model      	    :directory contains all saved pickel files of the machine learning model.
+│   │ dataset		    ::directory contains all .pynb file that does the preprocessing and fearure extration .
+│     │__
+│	 processed_data     :directory contains the .csv files that contains the main machine features and information.
+│	 preprocessing.py   :python script file to preprocess ad grab the features
+│	 get_data.py        :python script file that read and manage all sound files
+```
 
 [**↥ Back To The Top**](#Table_of_Contents)
 
