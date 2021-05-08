@@ -62,7 +62,7 @@ User can also use the QA service. User can paste or write the context they want 
 
 ## **How To Use**
 
-### **Installation </strong> </h3>
+### **Installation**
 
 `Python Ver. '3.8'`
 
