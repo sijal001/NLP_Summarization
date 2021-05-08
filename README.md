@@ -28,6 +28,11 @@ Ttokenization, stemming and lemmatization are used for exploration of text-based
 Transformer model has been used and pre-trained model perfomance has been evaluated. Development and deployment of the dashboard are done in Heroku.
 </p>
 
+<p align="justify">
+I am using the Bert_Large_CNN, the transformer pipline to do the summarization. User can use the webpage to easyly upload their file, use url or use context to get the summarization.
+User can also use the QA service. User can paste or write the context they want and ask system a question. Then system try it best to provide with best result answer possible.
+</p>
+
 <br/>
 
 ## **Technologies**
@@ -59,9 +64,12 @@ Transformer model has been used and pre-trained model perfomance has been evalua
 
 ### **Installation </strong> </h3>
 
+`Python Ver. '3.8'`
+
 **Note:** Just use command below to install the required libary with correct version to run the program smoothly.
 
 `pip install -r requiement.txt`
+
 
 1. Inside Bert_QA directory create 2 new drictory and name `ckpt_bert_squad` and `data`.
 2. Download import file and move it to data directory.
@@ -113,6 +121,18 @@ NLP_Summarization
 ```
 
 [**↥ Back To The Top**](#Table_of_Contents)
+
+---
+
+## **Future Addition**
+
+- Addition feature Reading the text.
+- Send copy of sumarization as txt file.
+- Read other extention files as pdf, epud, etc.
+- Improvement of model and adaitonal options as Pegasus
+- Training QA with BERT_Large and SQuAD Version 2
+
+
 
 ---
 ## **License**
