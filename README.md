@@ -72,7 +72,7 @@ User can also use the QA service. User can paste or write the context they want 
 `pip install -r requiement.txt`
 
 
-1. Inside Bert_QA directory create 2 new drictory and name `ckpt_bert_squad` and `data`.
+1. Inside Bert_QA directory create 2 new drictory and name it `ckpt_bert_squad` and `data`.
 2. Download import file and move it to data directory.
     * [training set](https://drive.google.com/file/d/1zwSjQX2gNb2EYldVoR5sCibnSDz9DQtH/view?usp=sharing)
     * [dev set](https://drive.google.com/file/d/1YjCrVa3906b4KCWTQu3KySY7gE1CPqpC/view?usp=sharing)
@@ -80,7 +80,7 @@ User can also use the QA service. User can paste or write the context they want 
     * [evaluation script](https://drive.google.com/file/d/1DKhqdc8tdMnZ4EzLtW2zuG0Pf6z6H3vF/view?usp=sharing )
 
 3. Inside Bert_QA directory run `BERT_QA_model.py` script file inside dir. (This generate traing file)
-3. Run the app.py file to host the application locally.
+4. Run the `app.py` file to host the application locally.
 
 
 [**↥ Back To The Top**](#table-of-contents)
