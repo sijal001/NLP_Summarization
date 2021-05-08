@@ -127,11 +127,11 @@ NLP_Summarization
 
 ## **Next Step**
 
-- Addition feature: **Text-to-Speech**.
-- Addition summary option: **Abstract** for Books and **Executive** for Report.
-- **E-Mail copy of sumarization** as txt file to user.
-- Option to **save audio or text file**.
-- **Read other extention** files as pdf, epud, etc.
+- Addition feature: *Text-to-Speech*.
+- Addition summary option: *Abstract* for Books and *Executive* for Report.
+- *E-Mail copy of sumarization* as txt file to user.
+- Option to *save audio or text file*.
+- *Read other extention* files as pdf, epud, etc.
 - Improvement of model (model options as Pegasus).
 - Training QA with BERT_Large, SQuAD Ver. 2 and full dataset.
 
