@@ -7,12 +7,13 @@
 
 ---
 
-## **Table_of_Contents**
+## **Table of Contents**
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [Repo Artitecture](#references)
+- [Repo Artitecture](#repo-artitecture)
+- [Next Step](#next-step)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -56,13 +57,13 @@ User can also use the QA service. User can paste or write the context they want 
 | transformers  | to perform multiple tasks on texts             |
 | beautifulsoup4| to scrape information from web pages.          |
 
-[**↥ Back To The Top**](#Table_of_Contents)
+[**↥ Back To The Top**](# table-of-contents)
 
 ---
 
 ## **How To Use**
 
-### **Installation**
+### **Installation** 
 
 `Python Ver. '3.8'`
 
@@ -82,7 +83,7 @@ User can also use the QA service. User can paste or write the context they want 
 3. Run the app.py file to host the application locally.
 
 
-[**↥ Back To The Top**](#Table_of_Contents)
+[**↥ Back To The Top**](# table-of-contents)
 
 ---
 
@@ -120,7 +121,7 @@ NLP_Summarization
 │	 Procfile               :files used for deployment.
 ```
 
-[**↥ Back To The Top**](#Table_of_Contents)
+[**↥ Back To The Top**](# table-of-contents)
 
 ---
 
@@ -133,7 +134,7 @@ NLP_Summarization
 - Improvement of model and adaitonal options as Pegasus
 - Training QA with BERT_Large and SQuAD Version 2
 
-[**↥ Back To The Top**](#Table_of_Contents)
+[**↥ Back To The Top**](# table-of-contents)
 
 ---
 ## **License**
@@ -162,7 +163,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </p>
 
-[**↥ Back To The Top**](#Table_of_Contents)
+[**↥ Back To The Top**](# table-of-contents)
 
 ---
 
@@ -171,4 +172,4 @@ SOFTWARE.
 - Linkedin - [Sijal Kumar Joshi](https://twitter.com/jamesqquick)
 - Github   - [sijal001](https://github.com/sijal001)
 
-[**↥ Back To The Top**](#Table_of_Contents)
+[**↥ Back To The Top**](# table-of-contents)
