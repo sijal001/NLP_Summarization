@@ -125,7 +125,7 @@ NLP_Summarization
 
 ---
 
-## **Future Addition**
+## **Next Step**
 
 - Addition feature: Text-to-Speech.
 - Send copy of sumarization as txt file to user.
