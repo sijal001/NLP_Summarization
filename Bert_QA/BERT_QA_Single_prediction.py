@@ -32,7 +32,7 @@ with open('./Bert_QA/data/squad/train_meta_data') as json_file:
 BATCH_SIZE = 4
 
 train_dataset = create_squad_dataset(
-    "/content/drive/My Drive/projects/BERT/data/squad/train-v1.1.tf_record",
+    "./Bert_QA/data/squad/train-v1.1.tf_record",
     input_meta_data['max_seq_length'], # 384
     BATCH_SIZE,
     is_training=True)
@@ -63,7 +63,6 @@ class BERTSquad(tf.keras.Model):
     def __init__(self, name="bert_squad"):
         super(BERTSquad, self).__init__(name=name)
         
-        # for full version traing change to "https://tfhub.dev/tensorflow/bert_en_uncased_L-24_H-1024_A-16/4"
         self.bert_layer = hub.KerasLayer(
             "https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/1",
             trainable=True)
@@ -71,8 +70,13 @@ class BERTSquad(tf.keras.Model):
         self.squad_layer = BertSquadLayer()
     
     def apply_bert(self, inputs):
-
-        # we dont use first output squad use dictionery
+#        _ , sequence_output = self.bert_layer([inputs["input_ids"],
+#                                               inputs["input_mask"],
+#                                               inputs["segment_ids"]])
+        
+        # New names for the 3 different elements of the inputs, since an update
+        # in tf_models_officials. Doesn't change anything for any other BERT
+        # usage.
         _ , sequence_output = self.bert_layer([inputs["input_word_ids"], inputs["input_mask"], inputs["input_type_ids"]])
         return sequence_output
 

@@ -15,11 +15,12 @@ summarizer = pipeline("summarization")
 bert_squad = bqa.BERTSquad()
 
 # save the trained model 
-checkpoint_path = "./ckpt_bert_squad/"
+checkpoint_path = "./Bert_QA/ckpt_bert_squad/"
 ckpt = tf.train.Checkpoint(bert_squad=bert_squad)
 ckpt_manager = tf.train.CheckpointManager(ckpt, checkpoint_path, max_to_keep=1)
 ckpt.restore(ckpt_manager.latest_checkpoint)
 print("Latest checkpoint restored!!")
+
 
 @app.route('/')
 def index():
