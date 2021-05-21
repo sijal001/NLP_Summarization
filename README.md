@@ -129,10 +129,10 @@ NLP_Summarization
 
 ## **Result Preview**
 
-<img src="./Preview_images/context.png" alt="Girl in a jacket" width="350" height="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./Preview_images/url.png" alt="Girl in a jacket" width="350" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./Preview_images/upload.png" alt="Girl in a jacket" width="350" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./Preview_images/qa.png" alt="Girl in a jacket" width="350" height="200">
+<img src="/Preview_images/context.png" width="350" height="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/Preview_images/url.png" width="350" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/Preview_images/upload.png" width="350" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/Preview_images/qa.png" width="350" height="200">
 
 
 [**↥ Back To The Top**](#table-of-contents)
@@ -185,6 +185,6 @@ SOFTWARE.
 ## **Author Info**
 
 - Linkedin - [Sijal Kumar Joshi](https://www.linkedin.com/in/sijal-kumar-joshi-b1545584/)
-- Github   - [sijal001](https://github.com/sijal001)
+- Github   - [Sijal Kumar Joshi](https://github.com/sijal001)
 
 [**↥ Back To The Top**](#table-of-contents)
