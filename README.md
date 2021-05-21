@@ -129,10 +129,10 @@ NLP_Summarization
 
 ## **Result Preview**
 
-<img src="/Preview_images/context.png" width="350" height="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/Preview_images/url.png" width="350" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/Preview_images/upload.png" width="350" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/Preview_images/qa.png" width="350" height="200">
+<img src="./Preview_images/context.png" width="350" height="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./Preview_images/url.png" width="350" height="200"> <br/><br/>
+<img src="./Preview_images/upload.png" width="350" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./Preview_images/qa.png" width="350" height="200">
 
 
 [**↥ Back To The Top**](#table-of-contents)
