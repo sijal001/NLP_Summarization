@@ -1,14 +1,16 @@
 <h1 align="center"> <strong>Text Summarization</strong> </h1>
 
-
-![Project Image](https://image.freepik.com/free-photo/black-male-student-underlining-important-information-textbook-using-pencil-while-making-history-research-university-canteen-during-lunch-phone-coffee-food-resting-table_273609-7535.jpg)
+<img src="https://image.freepik.com/free-photo/black-male-student-underlining-important-information-textbook-using-pencil-while-making-history-research-university-canteen-during-lunch-phone-coffee-food-resting-table_273609-7535.jpg" alt="Italian Trulli" width="1000" height="550" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;">
 
 > <p> <strong> The digital era also means that customers want to get answers not from one book but from thousands immediately. </strong> </p>
 
 ---
 
 ## **Table of Contents**
-You're sections headers will be used to reference location of destination.
+Your sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
@@ -125,6 +127,18 @@ NLP_Summarization
 
 ---
 
+## **Result Preview**
+
+<img src="./Preview_images/context.png" alt="Girl in a jacket" width="350" height="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./Preview_images/url.png" alt="Girl in a jacket" width="350" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./Preview_images/upload.png" alt="Girl in a jacket" width="350" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./Preview_images/qa.png" alt="Girl in a jacket" width="350" height="200">
+
+
+[**↥ Back To The Top**](#table-of-contents)
+
+---
+
 ## **Next Step**
 
 - Addition feature: *Text-to-Speech*.
@@ -170,7 +184,7 @@ SOFTWARE.
 
 ## **Author Info**
 
-- Linkedin - [Sijal Kumar Joshi](https://twitter.com/jamesqquick)
+- Linkedin - [Sijal Kumar Joshi](https://www.linkedin.com/in/sijal-kumar-joshi-b1545584/)
 - Github   - [sijal001](https://github.com/sijal001)
 
 [**↥ Back To The Top**](#table-of-contents)
